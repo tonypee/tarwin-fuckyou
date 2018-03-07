@@ -9,7 +9,7 @@
   "author": "Tony Polinelli <tonypolinelli@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -p",
     "dev": "webpack-dev-server"
   },
   "dependencies": {
