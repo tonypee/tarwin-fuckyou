@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  devtool: "inline-source-map",
+  devtool: "eval",
   entry: "./src/index.tsx",
   output: {
     filename: "bundle.js",
