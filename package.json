@@ -10,7 +10,9 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack -p",
-    "dev": "webpack-dev-server"
+    "dev": "webpack --watch",
+    "dev2": "webpack-dev-server",
+    "open": "open ./dist/index.html"
   },
   "dependencies": {
     "ts-loader": "^4.0.0",

@@ -1,3 +1,3 @@
-const who: string = "tarwin";
+const who: string = "tarwins";
 
 document.body.innerHTML = `hi ${who}`;
